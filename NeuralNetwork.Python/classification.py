@@ -109,7 +109,7 @@ def from_train(data):
 
 # ファイルの読み込み
 training_data = []
-training_data_file = open("locations.training.csv", "r")
+training_data_file = open("./data/locations.training.csv", "r")
 for line in training_data_file:
     data = line.rstrip().split(",")
     training_data.append(to_train(data))
