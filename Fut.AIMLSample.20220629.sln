@@ -1,0 +1,185 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CustomVisionDemo.Web", "CustomVisionDemo.Web\", "{0AF570D3-BB9D-4A68-B2D1-5D6CD31DC7AD}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_56800"
+		Debug.AspNetCompiler.PhysicalPath = "CustomVisionDemo.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56800\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_56800"
+		Release.AspNetCompiler.PhysicalPath = "CustomVisionDemo.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56800\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "56800"
+		SlnRelativePath = "CustomVisionDemo.Web\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputerVisionDemo.Web", "ComputerVisionDemo.Web\ComputerVisionDemo.Web.csproj", "{F5548E93-F6E4-46A2-8178-933D1A8A0720}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeuralNetwork.Core", "NeuralNetwork.Core\NeuralNetwork.Core.csproj", "{35F12C66-5EE2-4245-968D-7B23CE181D7E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeuralNetworkSample.WPF", "NeuralNetworkSample.WPF\NeuralNetworkSample.WPF.csproj", "{AEB93AC2-D299-4134-9D9C-4E99E3775DF2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mnist.CSharp", "Mnist.CSharp\Mnist.CSharp.csproj", "{23BA9934-CF30-4282-BEB4-74CF79DA3208}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLNetSample", "MLNetSample\MLNetSample.csproj", "{4546EDF6-3A43-429E-A8EE-4CEE87BED2D1}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NeuralNetwork.Python", "NeuralNetwork.Python\", "{6B603E4D-9680-4644-B6EE-19BAA9012232}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59164"
+		Debug.AspNetCompiler.PhysicalPath = "NeuralNetwork.Python\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59164\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59164"
+		Release.AspNetCompiler.PhysicalPath = "NeuralNetwork.Python\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59164\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59164"
+		SlnRelativePath = "NeuralNetwork.Python\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CharacterRecognition.Python", "CharacterRecognition.Python\", "{7AB22069-1605-4BCC-AA37-11AA96F0F61F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59220"
+		Debug.AspNetCompiler.PhysicalPath = "CharacterRecognition.Python\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59220\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59220"
+		Release.AspNetCompiler.PhysicalPath = "CharacterRecognition.Python\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59220\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59220"
+		SlnRelativePath = "CharacterRecognition.Python\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CopilotSample", "CopilotSample\", "{DA0121EA-EBF0-486C-9DB5-FA5D945547D7}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_63088"
+		Debug.AspNetCompiler.PhysicalPath = "CopilotSample\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63088\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_63088"
+		Release.AspNetCompiler.PhysicalPath = "CopilotSample\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63088\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63088"
+		SlnRelativePath = "CopilotSample\"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{30A51A8C-B127-42D8-BAB2-0F146F510A14}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Fukui Weather", "Fukui Weather\", "{ACE22F5B-522F-45BE-AC9F-5669099E1CA8}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50722"
+		Debug.AspNetCompiler.PhysicalPath = "Fukui Weather\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50722\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50722"
+		Release.AspNetCompiler.PhysicalPath = "Fukui Weather\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50722\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50722"
+		SlnRelativePath = "Fukui Weather\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureAutoMLSample", "AzureAutoMLSample\AzureAutoMLSample.csproj", "{F9E506A9-3A70-4FDB-8F80-4962A789AD21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AF570D3-BB9D-4A68-B2D1-5D6CD31DC7AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AF570D3-BB9D-4A68-B2D1-5D6CD31DC7AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AF570D3-BB9D-4A68-B2D1-5D6CD31DC7AD}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AF570D3-BB9D-4A68-B2D1-5D6CD31DC7AD}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F5548E93-F6E4-46A2-8178-933D1A8A0720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5548E93-F6E4-46A2-8178-933D1A8A0720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5548E93-F6E4-46A2-8178-933D1A8A0720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5548E93-F6E4-46A2-8178-933D1A8A0720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35F12C66-5EE2-4245-968D-7B23CE181D7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F12C66-5EE2-4245-968D-7B23CE181D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F12C66-5EE2-4245-968D-7B23CE181D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F12C66-5EE2-4245-968D-7B23CE181D7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEB93AC2-D299-4134-9D9C-4E99E3775DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB93AC2-D299-4134-9D9C-4E99E3775DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB93AC2-D299-4134-9D9C-4E99E3775DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB93AC2-D299-4134-9D9C-4E99E3775DF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23BA9934-CF30-4282-BEB4-74CF79DA3208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23BA9934-CF30-4282-BEB4-74CF79DA3208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23BA9934-CF30-4282-BEB4-74CF79DA3208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23BA9934-CF30-4282-BEB4-74CF79DA3208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4546EDF6-3A43-429E-A8EE-4CEE87BED2D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4546EDF6-3A43-429E-A8EE-4CEE87BED2D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4546EDF6-3A43-429E-A8EE-4CEE87BED2D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4546EDF6-3A43-429E-A8EE-4CEE87BED2D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B603E4D-9680-4644-B6EE-19BAA9012232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B603E4D-9680-4644-B6EE-19BAA9012232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B603E4D-9680-4644-B6EE-19BAA9012232}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B603E4D-9680-4644-B6EE-19BAA9012232}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{7AB22069-1605-4BCC-AA37-11AA96F0F61F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AB22069-1605-4BCC-AA37-11AA96F0F61F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AB22069-1605-4BCC-AA37-11AA96F0F61F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AB22069-1605-4BCC-AA37-11AA96F0F61F}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{DA0121EA-EBF0-486C-9DB5-FA5D945547D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA0121EA-EBF0-486C-9DB5-FA5D945547D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA0121EA-EBF0-486C-9DB5-FA5D945547D7}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA0121EA-EBF0-486C-9DB5-FA5D945547D7}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{ACE22F5B-522F-45BE-AC9F-5669099E1CA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE22F5B-522F-45BE-AC9F-5669099E1CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE22F5B-522F-45BE-AC9F-5669099E1CA8}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE22F5B-522F-45BE-AC9F-5669099E1CA8}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F9E506A9-3A70-4FDB-8F80-4962A789AD21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9E506A9-3A70-4FDB-8F80-4962A789AD21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9E506A9-3A70-4FDB-8F80-4962A789AD21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9E506A9-3A70-4FDB-8F80-4962A789AD21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D58DB2D-C3BF-47A5-A96B-FAB0D23AE124}
+	EndGlobalSection
+EndGlobal
