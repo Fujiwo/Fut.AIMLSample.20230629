@@ -1,6 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
+﻿// 参考: ASP.NET Core での Entity Framework Core を使用した Razor Pages - チュートリアル | Microsoft Learn
+// https://learn.microsoft.com/ja-jp/aspnet/core/data/ef-rp/intro?view=aspnetcore-7.0&tabs=visual-studio&WT.mc_id=email
+
 using AzureOpenAISample.Models;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,10 +15,8 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment()) {
     app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 } else {
     app.UseDeveloperExceptionPage();
@@ -28,7 +28,6 @@ using (var scope = app.Services.CreateScope()) {
 
     var context = services.GetRequiredService<AzureOpenAIContext>();
     context.Database.EnsureCreated();
-    // DbInitializer.Initialize(context);
 }
 
 app.UseHttpsRedirection();

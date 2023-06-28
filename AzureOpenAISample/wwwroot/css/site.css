@@ -1,14 +1,13 @@
 html {
-    /*  font-size: 14px;
-*/
-    font-size: small;
-}
+    font-size: 14px;
+/*    font-size: small;
+*/}
 
 @media (min-width: 768px) {
     html {
-/*        font-size: 16px;
-*/        font-size: medium;
-    }
+        font-size: 16px;
+/*        font-size: medium;
+*/    }
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
@@ -25,25 +24,39 @@ body {
 }
 
 /* 全体の枠 */
-.talk {
+.talk1 {
     background-color: rgb(113,147,193); /* LINEっぽい背景色 */
     padding: 1em;
     overflow: auto;
 }
 
+/* 全体の枠 */
+.talk2 {
+    background-color: rgb(143,117,173); /* LINEっぽい背景色 */
+    padding: 1em;
+    overflow: auto;
+}
+
+/* 全体の枠 */
+.talk3 {
+    background-color: rgb(113,157,183); /* LINEっぽい背景色 */
+    padding: 1em;
+    overflow: auto;
+}
+
 /* 左のトークボックス */
-.talk .talk_left:before { /* 左の丸アイコン */
+.talk_left:before { /* 左の丸アイコン */
     content: '';
     display: inline-block;
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
     vertical-align: top;
     border-radius: 50%;
     background-size: cover;
     background-image: url(icon_left.jpg); /* ←アイコンはここを変更 */
 }
 
-.talk .talk_left p:before { /* 左ふきだしの左三角を描画 */
+.talk_left p:before { /* 左ふきだしの左三角を描画 */
     content: '';
     position: absolute;
     top: 8px;
@@ -52,7 +65,7 @@ body {
     border-right: 12px solid white;
 }
 
-.talk .talk_left p { /* 左ふきだしの本体 */
+.talk_left p { /* 左ふきだしの本体 */
     display: inline-block;
     position: relative;
     background-color: white;
@@ -62,11 +75,11 @@ body {
 }
 
 /* 右のトークボックス */
-.talk .talk_right:after { /* 右の丸アイコン */
+.talk_right:after { /* 右の丸アイコン */
     content: '';
     display: inline-block;
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
     vertical-align: top;
     border-radius: 50%;
     background-size: cover;
@@ -74,12 +87,12 @@ body {
     background-image: url(icon_right.jpg); /* ←アイコンはここを変更 */
 }
 
-.talk .talk_right {
+.talk_right {
     float: right; /* 右のふきだしは全体的に右寄せ */
     margin-top: 1em;
 }
 
-.talk .talk_right p:after { /* 右ふきだしの右三角を描画 */
+.talk_right p:after { /* 右ふきだしの右三角を描画 */
     content: '';
     position: absolute;
     top: 8px;
@@ -88,7 +101,7 @@ body {
     border-left: 12px solid #85e249;
 }
 
-.talk .talk_right p { /* 右ふきだしの本体 */
+.talk_right p { /* 右ふきだしの本体 */
     display: inline-block;
     position: relative;
     background-color: #85e249;

@@ -125,7 +125,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Fukui Weather", "Fukui Weat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureAutoMLSample", "AzureAutoMLSample\AzureAutoMLSample.csproj", "{F9E506A9-3A70-4FDB-8F80-4962A789AD21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureOpenAISample", "AzureOpenAISample\AzureOpenAISample.csproj", "{D2EDC532-9B26-49F7-8568-70216B871E5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureOpenAISample", "AzureOpenAISample\AzureOpenAISample.csproj", "{D2EDC532-9B26-49F7-8568-70216B871E5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
