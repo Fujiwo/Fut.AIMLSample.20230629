@@ -148,11 +148,12 @@ namespace CallRequestResponseService
                 var scoreRequestContent = Coordinate.ToJson(testCoordinates);
                 //Console.WriteLine(scoreRequestContent);
 
-                const string apiKey = "Jpo7nyDEDdjLyurtkuehinux9H3RpOck"; // Replace this with the API key for the web service
-                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
-                client.BaseAddress = new Uri("https://automl20220701.japaneast.inference.ml.azure.com/score");
+                //const string apiKey = "Jpo7nyDEDdjLyurtkuehinux9H3RpOck"; // Replace this with the API key for the web service
+                //client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
+                //client.BaseAddress = new Uri("https://automl20220701.japaneast.inference.ml.azure.com/score");
+				client.BaseAddress = new Uri("http://428890eb-d024-48da-95cb-c8f3016db693.japaneast.azurecontainer.io/score");
 
-                var content = new StringContent(scoreRequestContent);
+				var content = new StringContent(scoreRequestContent);
 
                 content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
 
