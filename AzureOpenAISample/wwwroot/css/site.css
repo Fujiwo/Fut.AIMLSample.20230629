@@ -39,7 +39,7 @@ body {
 
 /* 全体の枠 */
 .talk3 {
-    background-color: rgb(113,157,183); /* LINEっぽい背景色 */
+    background-color: rgb(113,187,203); /* LINEっぽい背景色 */
     padding: 1em;
     overflow: auto;
 }
@@ -48,12 +48,12 @@ body {
 .talk_left:before { /* 左の丸アイコン */
     content: '';
     display: inline-block;
-    width: 48px;
-    height: 48px;
+    width: 64px;
+    height: 64px;
     vertical-align: top;
     border-radius: 50%;
     background-size: cover;
-    background-image: url(icon_left.jpg); /* ←アイコンはここを変更 */
+    background-image: url(icon_left.png); /* ←アイコンはここを変更 */
 }
 
 .talk_left p:before { /* 左ふきだしの左三角を描画 */
@@ -78,13 +78,13 @@ body {
 .talk_right:after { /* 右の丸アイコン */
     content: '';
     display: inline-block;
-    width: 48px;
-    height: 48px;
+    width: 64px;
+    height: 64px;
     vertical-align: top;
     border-radius: 50%;
     background-size: cover;
     background-position: -10px;
-    background-image: url(icon_right.jpg); /* ←アイコンはここを変更 */
+    background-image: url(icon_right.png); /* ←アイコンはここを変更 */
 }
 
 .talk_right {
